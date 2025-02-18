@@ -1,0 +1,54 @@
+*{
+
+    padding: 0;
+    margin: 0;
+
+}
+.hero-section{
+    background-image: url(3dee7bdf-ce98-407d-a2ee-261a34ec715a.webp);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,0.5);
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+.hero-text{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.book-button,
+.know-button{
+    background-color: aqua;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    transition: all 0.5s ease;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.book-button:hover{
+    background-color: chartreuse;
+}
+.amenties{
+    text-align: center;
+}
+.amenties ul{
+    display: inline-block;
+}
+.about-us{
+    float: left;
+    width: 50%;
+    margin: 10px 10px;
+    text-align: center;
+
+}
+.about-section > h1{
+    text-align: center;
+    margin: 10px 0px;
+    text-decoration: underline;
+}
